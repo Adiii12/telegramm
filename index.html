@@ -1,0 +1,3071 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Telegram Web</title>
+  </head>
+  <body>
+    <section class="login_signup">
+      <div class="sign_up_by_number" id="sign_up_by_number">
+        <img
+          src="images/unnamed-removebg-preview.png"
+          style="width: 200px;
+    height: 200px;margin: 30px auto"
+          alt=""
+        />
+        <h4 style="font-weight: 500">Sign in to Telegram</h4>
+        <p style="line-height: 22px;font-weight: 400">
+          Please confirm your country and <br />
+          enter your phone number.
+        </p>
+
+        <!-- select country============================== -->
+        <div class="container">
+          <div class="select-box">
+            <div
+              class="options-container"
+              id="optionContainer"
+              style=" margin-top: 10px;"
+            >
+              <div class="option">
+                <span class="search">
+                  <img src="images/afg.png" alt="" />
+                  <input type="radio" class="radio" id="afg" name="category" />
+                  <label for="afg">Afghanistan</label>
+                  <span class="code">+93</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/albania.png" alt="" />
+                  <input type="radio" class="radio" id="alb" name="category" />
+                  <label for="afg">Albania</label>
+                  <span class="code">+355</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/alg.png" alt="" />
+                  <input type="radio" class="radio" id="alg" name="category" />
+                  <label for="alg">Algeria</label>
+                  <span class="code">+213</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/samoa.png" alt="" />
+                  <input type="radio" class="radio" id="sam" name="category" />
+                  <label for="sam">American Samoa</label>
+                  <span class="code">+1684</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/andorra.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="andorra"
+                    name="category"
+                  />
+                  <label for="and">Andorra</label>
+                  <span class="code">+378</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/ang.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Angola"
+                    name="category"
+                  />
+                  <label for="Angola">Angola</label>
+                  <span class="code">+244</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/anguilla.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="anguilla"
+                    name="category"
+                  />
+                  <label for="anguilla">Anguilla</label>
+                  <span class="code">+1264</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/antigua.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="antigua"
+                    value=""
+                    name="category"
+                  />
+                  <label for="antigua">Antigua & Barbuda</label>
+                  <span class="code">+1268</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/argen.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Argentina"
+                    name="category"
+                  />
+                  <label for="Argentina">Argentina</label>
+                  <span class="code">+54</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/armenai.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Armenia"
+                    name="category"
+                  />
+                  <label for="Armenia">Armenia</label>
+                  <span class="code">+374</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/aruba.png" alt="" />
+                  <input type="radio" class="radio" id="and" name="category" />
+                  <label for="and">Aruba</label>
+                  <span class="code">+297</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/aus.png" alt="" />
+                  <input type="radio" class="radio" id="and" name="category" />
+                  <label for="and">Australia</label>
+                  <span class="code">+61</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/austria.png" alt="" />
+                  <input type="radio" class="radio" id="and" name="category" />
+                  <label for="and">Austria</label>
+                  <span class="code">+43</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/azerbaijan.png" alt="" />
+                  <input type="radio" class="radio" id="and" name="category" />
+                  <label for="and">Azerbaijan</label>
+                  <span class="code">+994</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/andorra.png" alt="" />
+                  <input type="radio" class="radio" id="and" name="category" />
+                  <label for="and">Andorra</label>
+                  <span class="code">+378</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/baha.png" alt="" />
+                  <input type="radio" class="radio" id="and" name="category" />
+                  <label for="and">Bahamas</label>
+                  <span class="code">+1242</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/beh.png" alt="" />
+                  <input type="radio" class="radio" id="and" name="category" />
+                  <label for="and">Behrain</label>
+                  <span class="code">+973</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/bang.png" alt="" />
+                  <input type="radio" class="radio" id="and" name="category" />
+                  <label for="and">Bangladesh</label>
+                  <span class="code">+880</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/barbados.png" alt="" />
+                  <input type="radio" class="radio" id="and" name="category" />
+                  <label for="and">Barbados</label>
+                  <span class="code">+1246</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/belarus.png" alt="" />
+                  <input type="radio" class="radio" id="and" name="category" />
+                  <label for="and">Belarus</label>
+                  <span class="code">+375</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/belgium.png" alt="" />
+                  <input type="radio" class="radio" id="and" name="category" />
+                  <label for="and">Belgium</label>
+                  <span class="code">+32</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/belize.png" alt="" />
+                  <input type="radio" class="radio" id="and" name="category" />
+                  <label for="and">Belize</label>
+                  <span class="code">+501</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/benin.png" alt="" />
+                  <input type="radio" class="radio" id="and" name="category" />
+                  <label for="and">Benin</label>
+                  <span class="code">+229</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/barmuda.png" alt="" />
+                  <input type="radio" class="radio" id="and" name="category" />
+                  <label for="and">Bermuda</label>
+                  <span class="code">+1441</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/bhutan.png" alt="" />
+                  <input type="radio" class="radio" id="and" name="category" />
+                  <label for="and">Bhutan</label>
+                  <span class="code">+975</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/bolivia.png" alt="" />
+                  <input type="radio" class="radio" id="and" name="category" />
+                  <label for="and">Bolivia</label>
+                  <span class="code">+591</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/bosnia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Bonaire"
+                    name="category"
+                  />
+                  <label for="bonaire"
+                    >Bonaire, Sint Eustatius & Herzegovina</label
+                  >
+                  <span class="code">+387</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/bosnia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="bosnia"
+                    name="category"
+                  />
+                  <label for="bosnia">Bosnia & Herzegovina</label>
+                  <span class="code">+387</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/bostwana.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="bostwana"
+                    name="category"
+                  />
+                  <label for="bostwana">Bostwana</label>
+                  <span class="code">+267</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/brazil.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="brazil"
+                    name="category"
+                  />
+                  <label for="brazil">Brazil</label>
+                  <span class="code">+55</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/british.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="british"
+                    name="category"
+                  />
+                  <label for="british">British Virgin Islands</label>
+                  <span class="code">+1284</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/brubeu.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Brunei"
+                    name="category"
+                  />
+                  <label for="Brunei">Brunei Darussalam</label>
+                  <span class="code">+673</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/bulgaria.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="bulgaria"
+                    name="category"
+                  />
+                  <label for="bulgaria">Bulgaria</label>
+                  <span class="code">+359</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/burkina.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="burkina"
+                    name="category"
+                  />
+                  <label for="burkina">Burkina Faso</label>
+                  <span class="code">+226</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/burundi.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="burundi"
+                    name="category"
+                  />
+                  <label for="burundi">Burundi</label>
+                  <span class="code">+257</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/cambodia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="cambodia"
+                    name="category"
+                  />
+                  <label for="cambodia">Cambodia</label>
+                  <span class="code">+855</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/canada.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="canada"
+                    name="category"
+                  />
+                  <label for="canada">Canada</label>
+                  <span class="code">+1</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/capev.png" alt="" />
+                  <input type="radio" class="radio" id="Cape" name="category" />
+                  <label for="Cape">Cape Verde</label>
+                  <span class="code">+238</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/cayman.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="cayman"
+                    name="category"
+                  />
+
+                  <label for="cayman">Cayman Islands</label>
+                  <span class="code">+1346</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/centralA.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="centralA"
+                    name="category"
+                  />
+                  <label for="centralA">Central African Rep.</label>
+                  <span class="code">+236</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/chad.png" alt="" />
+                  <input type="radio" class="radio" id="chad" name="category" />
+                  <label for="chad">Chad</label>
+                  <span class="code">+235</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/chile.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="chile"
+                    name="category"
+                  />
+                  <label for="chile">Chile</label>
+                  <span class="code">+56</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/chile.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="China"
+                    name="category"
+                  />
+                  <label for="China">China</label>
+                  <span class="code">+86</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/colombia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="colombia"
+                    name="category"
+                  />
+                  <label for="colombia">Colombia</label>
+                  <span class="code">+57</span>
+                </span>
+              </div>
+              <!-- comoros====================================================================================== -->
+              <div class="option">
+                <span class="search">
+                  <img src="images/isss.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="comoros"
+                    name="category"
+                  />
+                  <label for="comoros">Comoros</label>
+                  <span class="code">+296</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/congo.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Congo"
+                    name="category"
+                  />
+                  <label for="Congo">Congo (Dem. Rep)</label>
+                  <span class="code">+243</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/congoRep.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="congoRep"
+                    name="category"
+                  />
+                  <label for="congoRep">Congo (Rep.)</label>
+                  <span class="code">+242</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/cookIsland.png" alt="" />
+                  <input type="radio" class="radio" id="Cook" name="category" />
+                  <label for="Cook">Cook Islands</label>
+                  <span class="code">+682</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/costarica.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="costarica"
+                    name="category"
+                  />
+                  <label for="costarica">Costa Rica</label>
+                  <span class="code">+506</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/cote.png" alt="" />
+                  <input type="radio" class="radio" id="Cote" name="category" />
+                  <label for="Cote">Cote d'lvoire</label>
+                  <span class="code">+1346</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/croatia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="croatia"
+                    name="category"
+                  />
+                  <label for="croatia">Croatia</label>
+                  <span class="code">+383</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/cuba.png" alt="" />
+                  <input type="radio" class="radio" id="cuba" name="category" />
+                  <label for="cuba">Cuba</label>
+                  <span class="code">+53</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/curacao.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="curacao"
+                    name="category"
+                  />
+                  <label for="curacao">Curacao</label>
+                  <span class="code">+599</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/cyprus.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="cyprus"
+                    name="category"
+                  />
+                  <label for="cyprus">Cyprus</label>
+                  <span class="code">+357</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/czechkreup.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Czech"
+                    name="category"
+                  />
+                  <label for="Czech">Czech Republic</label>
+                  <span class="code">+420</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/denmark.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="denmark"
+                    name="category"
+                  />
+                  <label for="denmark">Denmark</label>
+                  <span class="code">+45</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/diego.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="diego"
+                    name="category"
+                  />
+
+                  <label for="diego">Diego Gracia</label>
+                  <span class="code">+1346</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/djinouti.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="djinouti"
+                    name="category"
+                  />
+                  <label for="djinouti">Djibouti</label>
+                  <span class="code">+253</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/dominica.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="dominica"
+                    name="category"
+                  />
+                  <label for="dominica">Dominica</label>
+                  <span class="code">+1767</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/dominican.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="dominican"
+                    name="category"
+                  />
+                  <label for="dominican">Dominican Rep.</label>
+                  <span class="code">+1809</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/dominican.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="dominican2"
+                    name="category"
+                  />
+                  <label for="dominican2">Dominican Rep.</label>
+                  <span class="code">+1829</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/dominican.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="dominican3"
+                    name="category"
+                  />
+                  <label for="dominican3">Dominican Rep.</label>
+                  <span class="code">+1849</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/ecuador.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="ecuador"
+                    name="category"
+                  />
+                  <label for="ecuador">Ecuador</label>
+                  <span class="code">+593</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/egypt.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="egypt"
+                    name="category"
+                  />
+                  <label for="egypt">Egypt</label>
+                  <span class="code">+20</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/elsalvator.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="elsalvator"
+                    name="category"
+                  />
+                  <label for="elsalvator">El Salvador</label>
+                  <span class="code">+503</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/equa.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Equatorial"
+                    name="category"
+                  />
+                  <label for="Equatorial">Equatorial Guinea</label>
+                  <span class="code">+240</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/eritree.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="eritree"
+                    name="category"
+                  />
+                  <label for="eritree">Eritrea</label>
+                  <span class="code">+291</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/estonia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="estonia"
+                    name="category"
+                  />
+                  <label for="estonia">Estonia</label>
+                  <span class="code">+372</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/eswatini.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="eswatini"
+                    name="category"
+                  />
+                  <label for="eswatini">Eswatini</label>
+                  <span class="code">+268</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/ethiopia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="ethiopia"
+                    name="category"
+                  />
+                  <label for="ethiopia">Ethiopia</label>
+                  <span class="code">+251</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/falkland.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="falkland"
+                    name="category"
+                  />
+                  <label for="falkland">Falkland Islands</label>
+                  <span class="code">+500</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/faroe.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="faroe"
+                    name="category"
+                  />
+                  <label for="faroe">Faroe Islands</label>
+                  <span class="code">+298</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/fiji.png" alt="" />
+                  <input type="radio" class="radio" id="Fiji" name="category" />
+                  <label for="Fiji">Fiji</label>
+                  <span class="code">+679</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/finland.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="finland"
+                    name="category"
+                  />
+                  <label for="finland">Finland</label>
+                  <span class="code">+358</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/france.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="france"
+                    name="category"
+                  />
+                  <label for="france">France</label>
+                  <span class="code">+33</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/frenchG.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="frenchG"
+                    name="category"
+                  />
+                  <label for="frenchG">French Guinea</label>
+                  <span class="code">+594</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/gabon.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="gabon"
+                    name="category"
+                  />
+                  <label for="gabon">Gabon</label>
+                  <span class="code">+241</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/gambia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="gambia"
+                    name="category"
+                  />
+                  <label for="gambia">Gambia</label>
+                  <span class="code">+220</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/georgia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="georgia"
+                    name="category"
+                  />
+                  <label for="georgia">Georgia</label>
+                  <span class="code">+995</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/germany.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="germany"
+                    name="category"
+                  />
+                  <label for="germany">Germany</label>
+                  <span class="code">+49</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/ghana.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="ghana"
+                    name="category"
+                  />
+                  <label for="ghana">Ghana</label>
+                  <span class="code">+233</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/gilbralter.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="gilbralter"
+                    name="category"
+                  />
+                  <label for="gilbralter">Gibraltar</label>
+                  <span class="code">+350</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/greece.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="greece"
+                    name="category"
+                  />
+                  <label for="greece">Greece</label>
+                  <span class="code">+30</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/greenland.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="greenland"
+                    name="category"
+                  />
+                  <label for="greenland">Greenland</label>
+                  <span class="code">+299</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/grenada.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="grenada"
+                    name="category"
+                  />
+                  <label for="grenada">Grenada</label>
+                  <span class="code">+1473</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/guadloupe.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="guadloupe"
+                    name="category"
+                  />
+                  <label for="guadloupe">Guadeloupe</label>
+                  <span class="code">+590</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/guan.png" alt="" />
+                  <input type="radio" class="radio" id="Guam" name="category" />
+                  <label for="Guam">Guam</label>
+                  <span class="code">+1671</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/guatemala.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="guatemala"
+                    name="category"
+                  />
+                  <label for="guatemala">Guatemala</label>
+                  <span class="code">+502</span>
+                </span>
+              </div>
+              <!-- need change ============================================= -->
+              <div class="option">
+                <span class="search">
+                  <img src="images/guineabiss.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Guinea"
+                    name="category"
+                  />
+                  <label for="Guinea">Guinea</label>
+                  <span class="code">+224</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/guineabiss.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Guinea-Bissau"
+                    name="category"
+                  />
+                  <label for="Guinea-Bissau">Guinea-Bissau</label>
+                  <span class="code">+245</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/guyana.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="guyana"
+                    name="category"
+                  />
+                  <label for="guyana">Guyana</label>
+                  <span class="code">+592</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/haiti.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="haiti"
+                    name="category"
+                  />
+                  <label for="haiti">Haiti</label>
+                  <span class="code">+509</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/honduras.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="honduras"
+                    name="category"
+                  />
+                  <label for="honduras">Honduras</label>
+                  <span class="code">+504</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/hongkong.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="hongkong"
+                    name="category"
+                  />
+                  <label for="hongkong">Hong Kong</label>
+                  <span class="code">+852</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/hungary.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="hungary"
+                    name="category"
+                  />
+                  <label for="hungary">Hungary</label>
+                  <span class="code">+36</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/iceland.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="iceland"
+                    name="category"
+                  />
+                  <label for="iceland">Iceland</label>
+                  <span class="code">+354</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/india.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="india"
+                    name="category"
+                  />
+                  <label for="india">India</label>
+                  <span class="code">+91</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/indonesia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="indonesia"
+                    name="category"
+                  />
+                  <label for="indonesia">Indonesia</label>
+                  <span class="code">+62</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/iran.png" alt="" />
+                  <input type="radio" class="radio" id="iran" name="category" />
+                  <label for="iran">Iran</label>
+                  <span class="code">+98</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/iraq.png" alt="" />
+                  <input type="radio" class="radio" id="iraq" name="category" />
+                  <label for="iraq">Iraq</label>
+                  <span class="code">+964</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/ireland.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="ireland"
+                    name="category"
+                  />
+                  <label for="ireland">Ireland</label>
+                  <span class="code">+353</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/israel.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="israel"
+                    name="category"
+                  />
+                  <label for="israel">Israel</label>
+                  <span class="code">+972</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/italy.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="italy"
+                    name="category"
+                  />
+                  <label for="italy">Italy</label>
+                  <span class="code">+39</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/jamaica.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="jamaica"
+                    name="category"
+                  />
+                  <label for="jamaica">Jamaica</label>
+                  <span class="code">+1876</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/japan.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="japan"
+                    name="category"
+                  />
+                  <label for="japan">Japan</label>
+                  <span class="code">+81</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/jordan.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="jordan"
+                    name="category"
+                  />
+                  <label for="jordan">Jordan</label>
+                  <span class="code">+962</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/kezakhstan.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Kazakhstan"
+                    name="category"
+                  />
+                  <label for="Kazakhstan">Kazakhstan</label>
+                  <span class="code">+7</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/kenya.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="kenya"
+                    name="category"
+                  />
+                  <label for="kenya">Kenya</label>
+                  <span class="code">+254</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/kribati.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Kiribati"
+                    name="category"
+                  />
+                  <label for="Kiribati">Kiribati</label>
+                  <span class="code">+686</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/kosovo.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="kosovo"
+                    name="category"
+                  />
+                  <label for="kosovo">Kosovo</label>
+                  <span class="code">+383</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/kuwait.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="kuwait"
+                    name="category"
+                  />
+                  <label for="kuwait">Kuwait</label>
+                  <span class="code">+965</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/kyrgyzstan.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="kyrgyzstan"
+                    name="category"
+                  />
+                  <label for="kyrgyzstan">Kyrgyzstan</label>
+                  <span class="code">+996</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/laos.png" alt="" />
+                  <input type="radio" class="radio" id="laos" name="category" />
+                  <label for="laos">Laos</label>
+                  <span class="code">+856</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/latvia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="latvia"
+                    name="category"
+                  />
+                  <label for="latvia">Latvia</label>
+                  <span class="code">+371</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/lebonon.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Lebanon"
+                    name="category"
+                  />
+                  <label for="Lebanon">Lebanon</label>
+                  <span class="code">+961</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/lesotho.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="lesotho"
+                    name="category"
+                  />
+                  <label for="lesotho">Lesotho</label>
+                  <span class="code">+266</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/liberia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="liberia"
+                    name="category"
+                  />
+                  <label for="liberia">Liberia</label>
+                  <span class="code">+231</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/libya.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="libya"
+                    name="category"
+                  />
+                  <label for="libya">Libya</label>
+                  <span class="code">+218</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/liechtenstein.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="liechtenstein"
+                    name="category"
+                  />
+                  <label for="liechtenstein">Liechtenstein</label>
+                  <span class="code">+423</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/lithunia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="lithunia"
+                    name="category"
+                  />
+                  <label for="lithunia">Lithuania</label>
+                  <span class="code">+370</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/luxumbourg.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Luxembourg"
+                    name="category"
+                  />
+                  <label for="Luxembourg">Luxembourg</label>
+                  <span class="code">+352</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/macao.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Macau"
+                    name="category"
+                  />
+                  <label for="Macau">Macau</label>
+                  <span class="code">+853</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/madagascar.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="madagascar"
+                    name="category"
+                  />
+                  <label for="madagascar">Madagascar</label>
+                  <span class="code">+261</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/malawi.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="malawi"
+                    name="category"
+                  />
+                  <label for="malawi">Malawi</label>
+                  <span class="code">+265</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/malaysia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="malaysia"
+                    name="category"
+                  />
+                  <label for="malaysia">Malaysia</label>
+                  <span class="code">+60</span>
+                </span>
+              </div>
+
+              <div class="option">
+                <span class="search">
+                  <img src="images/maldives.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="maldives"
+                    name="category"
+                  />
+                  <label for="maldives">Maldives</label>
+                  <span class="code">+960</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/mali.png" alt="" />
+                  <input type="radio" class="radio" id="Mali" name="category" />
+                  <label for="Mali">Mali</label>
+                  <span class="code">+223</span>
+                </span>
+              </div>
+
+              <div class="option">
+                <span class="search">
+                  <img src="images/malta.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="malta"
+                    name="category"
+                  />
+                  <label for="malta">Malta</label>
+                  <span class="code">+356</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/marshal.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="marshal"
+                    name="category"
+                  />
+                  <label for="marshal">Marshall Islands</label>
+                  <span class="code">+692</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/martinique.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="martinique"
+                    name="category"
+                  />
+                  <label for="martinique">Martinique</label>
+                  <span class="code">+596</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/mauritsnia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Mauritania"
+                    name="category"
+                  />
+                  <label for="Mauritania">Mauritania</label>
+                  <span class="code">+222</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/maritius.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Mauritius"
+                    name="category"
+                  />
+                  <label for="Mauritius">Mauritius</label>
+                  <span class="code">+230</span>
+                </span>
+              </div>
+
+              <div class="option">
+                <span class="search">
+                  <img src="images/mexico.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="mexico"
+                    name="category"
+                  />
+                  <label for="mexico">Mexico</label>
+                  <span class="code">+240</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/nicronesia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Micronesia"
+                    name="category"
+                  />
+                  <label for="Micronesia">Micronesia</label>
+                  <span class="code">+691</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/moldova.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="moldova"
+                    name="category"
+                  />
+                  <label for="moldova">Moldova</label>
+                  <span class="code">+373</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/monaco.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="monaco"
+                    name="category"
+                  />
+                  <label for="monaco">Monaco</label>
+                  <span class="code">+377</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/mongolia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="mongolia"
+                    name="category"
+                  />
+                  <label for="mongolia">Mongolia</label>
+                  <span class="code">+976</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/montenegro.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="montenegro"
+                    name="category"
+                  />
+                  <label for="montenegro">Montenegro</label>
+                  <span class="code">+382</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/montseray.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Montserrat"
+                    name="category"
+                  />
+                  <label for="Montserrat">Montserrat</label>
+                  <span class="code">+1664</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/morocco.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="morocco"
+                    name="category"
+                  />
+                  <label for="morocco">Morocco</label>
+                  <span class="code">+212</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/mozambique.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="mozambique"
+                    name="category"
+                  />
+                  <label for="mozambique">Mozambique</label>
+                  <span class="code">+240</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/maynmar.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="maynmar"
+                    name="category"
+                  />
+                  <label for="maynmar">Myanmar</label>
+                  <span class="code">+95</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/namibia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="namibia"
+                    name="category"
+                  />
+                  <label for="namibia">Namibia</label>
+                  <span class="code">+264</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/nauro.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="nauro"
+                    name="category"
+                  />
+                  <label for="nauro">Nauru</label>
+                  <span class="code">+674</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/nepal.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="nepal"
+                    name="category"
+                  />
+                  <label for="nepal">Nepal</label>
+                  <span class="code">+977</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/luxumbourg.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="NetherLand"
+                    name="category"
+                  />
+                  <label for="NetherLand">NetherLand</label>
+                  <span class="code">+31</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/newcaledonia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="newcaledonia"
+                    name="category"
+                  />
+                  <label for="newcaledonia">New Calendonia</label>
+                  <span class="code">+687</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/newzealand.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="newzealand"
+                    name="category"
+                  />
+                  <label for="newzealand">New Zealand</label>
+                  <span class="code">+64</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/nicaragua.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="nicaragua"
+                    name="category"
+                  />
+                  <label for="nicaragua">Nicaragua</label>
+                  <span class="code">+505</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/nigar.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="nigar"
+                    name="category"
+                  />
+                  <label for="nigar">Nigar</label>
+                  <span class="code">+227</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/nigeria.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="nigeria"
+                    name="category"
+                  />
+                  <label for="nigeria">Nigeria</label>
+                  <span class="code">+234</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/niue.png" alt="" />
+                  <input type="radio" class="radio" id="niue" name="category" />
+                  <label for="niue">Niue</label>
+                  <span class="code">+683</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/nofolkisland.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="northfolk"
+                    name="category"
+                  />
+                  <label for="northfolk">Norfolk Island</label>
+                  <span class="code">+672</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/northkora.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="northkora"
+                    name="category"
+                  />
+                  <label for="northkora">North Korea</label>
+                  <span class="code">+850</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/northmacedonia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="northmacedonia"
+                    name="category"
+                  />
+                  <label for="northmacedonia">North Macedonia</label>
+                  <span class="code">+389</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/pakistan.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="pakistan"
+                    name="category"
+                  />
+                  <label for="pakistan">Pakistan</label>
+                  <span class="code">+92</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/pulao.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="Palau"
+                    name="category"
+                  />
+                  <label for="Palau">Palau</label>
+                  <span class="code">+680</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/palestine.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="palestine"
+                    name="category"
+                  />
+                  <label for="palestine">Palestine</label>
+                  <span class="code">+970</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/panama.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="panama"
+                    name="category"
+                  />
+                  <label for="panama">Panama</label>
+                  <span class="code">+507</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/papuanewg.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="papuanewg"
+                    name="category"
+                  />
+                  <label for="papuanewg">Papua New Guinea</label>
+                  <span class="code">+675</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/paraguay.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="paraguay"
+                    name="category"
+                  />
+                  <label for="paraguay">Paraguay</label>
+                  <span class="code">+595</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/peru.png" alt="" />
+                  <input type="radio" class="radio" id="Peru" name="category" />
+                  <label for="Peru">Peru</label>
+                  <span class="code">+51</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/phillipines.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="phillipines"
+                    name="category"
+                  />
+                  <label for="phillipines">Philippines</label>
+                  <span class="code">+63</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/poland.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="poland"
+                    name="category"
+                  />
+                  <label for="poland">Poland</label>
+                  <span class="code">+48</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/portugal.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="portugal"
+                    name="category"
+                  />
+                  <label for="portugal">Portugal</label>
+                  <span class="code">+351</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/puertoRico.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="puertoRico"
+                    name="category"
+                  />
+                  <label for="puertoRico">Puerto Rico</label>
+                  <span class="code">+1787</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/puertoRico.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="puertoRico2"
+                    name="category"
+                  />
+                  <label for="puertoRico2">Puerto Rico</label>
+                  <span class="code">+1939</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/qatar.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="qatar"
+                    name="category"
+                  />
+                  <label for="qatar">Qatar</label>
+                  <span class="code">+974</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/reunion.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="reunion"
+                    name="category"
+                  />
+                  <label for="reunion">Reunion</label>
+                  <span class="code">+262</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/romania.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="romania"
+                    name="category"
+                  />
+                  <label for="romania">Romania</label>
+                  <span class="code">+40</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/russianfederation.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="russianfederation"
+                    name="category"
+                  />
+                  <label for="russianfederation">Russian Federation</label>
+                  <span class="code">+1787</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/rwanda.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="rwanda"
+                    name="category"
+                  />
+                  <label for="rwanda">Rwanda</label>
+                  <span class="code">+250</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/sainthelena.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="sainthelena"
+                    name="category"
+                  />
+                  <label for="sainthelena">Saint Helena</label>
+                  <span class="code">+247</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/sainthelena.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="sainthelena2"
+                    name="category"
+                  />
+                  <label for="sainthelena2">Saint Helena</label>
+                  <span class="code">+290</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/saintk.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="saintk"
+                    name="category"
+                  />
+                  <label for="saintk">Saint Kitts & Nevis</label>
+                  <span class="code">+1869</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/saintl.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="saintl"
+                    name="category"
+                  />
+                  <label for="saintl">Saint Lucia</label>
+                  <span class="code">+1758</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/saintp.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="saintp"
+                    name="category"
+                  />
+                  <label for="saintp">Saint Pierre & Miquelon</label>
+                  <span class="code">+508</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/saintv.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="saintv"
+                    name="category"
+                  />
+                  <label for="saintv">Saint Vincent & the Grenadines</label>
+                  <span class="code">+1784</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/samoa.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="samoa"
+                    name="category"
+                  />
+                  <label for="samoa">Samoa</label>
+                  <span class="code">+685</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/sanmarino.png" alt="" />
+                  <input type="radio" class="radio" id="San" name="category" />
+                  <label for="San">San Marino</label>
+                  <span class="code">+378</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/saintp.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="saintp2"
+                    name="category"
+                  />
+                  <label for="saintp2">Saint Pierre & Miquelon</label>
+                  <span class="code">+508</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/saotome.png" alt="" />
+                  <input type="radio" class="radio" id="Sao" name="category" />
+                  <label for="Sao">Sao Tome & Principe</label>
+                  <span class="code">+239</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/saudirabia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="saudirabia"
+                    name="category"
+                  />
+                  <label for="saudirabia">Saudi Arabia</label>
+                  <span class="code">+966</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/senegal.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="senegal"
+                    name="category"
+                  />
+                  <label for="senegal">Senegal</label>
+                  <span class="code">+221</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/serbia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="serbia"
+                    name="category"
+                  />
+                  <label for="serbia">Serbia</label>
+                  <span class="code">+381</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/seychelles.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="seychelles"
+                    name="category"
+                  />
+                  <label for="seychelles">Seychelles</label>
+                  <span class="code">+248</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/sierraleone.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="sierraleone"
+                    name="category"
+                  />
+                  <label for="sierraleone">Sierra Leone</label>
+                  <span class="code">+232</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/singapore.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="singapore"
+                    name="category"
+                  />
+                  <label for="singapore">Singapore</label>
+                  <span class="code">+65</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/sintmaarten.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="sintmaarten"
+                    name="category"
+                  />
+                  <label for="sintmaarten">Sint Maarten</label>
+                  <span class="code">+1721</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/slovakia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="slovakia"
+                    name="category"
+                  />
+                  <label for="slovakia">Slovakia</label>
+                  <span class="code">+421</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/slovenia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="slovenia"
+                    name="category"
+                  />
+                  <label for="slovenia">Slovenia</label>
+                  <span class="code">+386</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/solomonisland.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="solomonisland"
+                    name="category"
+                  />
+                  <label for="solomonisland">Solomon Islands</label>
+                  <span class="code">+677</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/somalia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="somalia"
+                    name="category"
+                  />
+                  <label for="somalia">Somalia</label>
+                  <span class="code">+252</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/southafrica.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="southafrica"
+                    name="category"
+                  />
+                  <label for="southafrica">South Africa</label>
+                  <span class="code">+27</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/korea.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="southk"
+                    name="category"
+                  />
+                  <label for="southk">South Korea</label>
+                  <span class="code">+82</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/sudan.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="souths"
+                    name="category"
+                  />
+                  <label for="souths">South Sudan</label>
+                  <span class="code">+211</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/spain.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="spain"
+                    name="category"
+                  />
+                  <label for="spain">Spain</label>
+                  <span class="code">+34</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/srilanka.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="srilanka"
+                    name="category"
+                  />
+                  <label for="srilanka">Sri Lanka</label>
+                  <span class="code">+84</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/sudan.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="sudan"
+                    name="category"
+                  />
+                  <label for="sudan">Sudan</label>
+                  <span class="code">+249</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/suriname.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="suriname"
+                    name="category"
+                  />
+                  <label for="suriname">Suriname</label>
+                  <span class="code">+597</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/sweden.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="sweden"
+                    name="category"
+                  />
+                  <label for="sweden">Sweden</label>
+                  <span class="code">+46</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/switzerland.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="switzerland"
+                    name="category"
+                  />
+                  <label for="switzerland">Switzerland</label>
+                  <span class="code">+41</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/syria.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="syria"
+                    name="category"
+                  />
+                  <label for="syria">Syria</label>
+                  <span class="code">+963</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/taiwan.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="taiwan"
+                    name="category"
+                  />
+                  <label for="taiwan">Taiwan</label>
+                  <span class="code">+886</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/tajikistan.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="tajikistan"
+                    name="category"
+                  />
+                  <label for="tajikistan">Tajikistan</label>
+                  <span class="code">+992</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/tanzania.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="tanzania"
+                    name="category"
+                  />
+                  <label for="tanzania">Tanzania</label>
+                  <span class="code">+255</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/thailand.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="thailand"
+                    name="category"
+                  />
+                  <label for="thailand">Thailand</label>
+                  <span class="code">+66</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/timorleste.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="timorleste"
+                    name="category"
+                  />
+                  <label for="timorleste">Timor-Leste</label>
+                  <span class="code">+670</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/togo.png" alt="" />
+                  <input type="radio" class="radio" id="togo" name="category" />
+                  <label for="Togo">Togo</label>
+                  <span class="code">+228</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/tokelu.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="tokelu"
+                    name="category"
+                  />
+                  <label for="tokelu">Tokelu</label>
+                  <span class="code">+690</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/tonga.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="tonga"
+                    name="category"
+                  />
+                  <label for="tonga">Tonga</label>
+                  <span class="code">+676</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/trinidad.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="trinidad"
+                    name="category"
+                  />
+                  <label for="trinidad">Trinidad & Tobago</label>
+                  <span class="code">+1868</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/tunisia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="tunisia"
+                    name="category"
+                  />
+                  <label for="tunisia">Tunisia</label>
+                  <span class="code">+216</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/turkey.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="turkey"
+                    name="category"
+                  />
+                  <label for="turkey">Turkey</label>
+                  <span class="code">+90</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/turkmenistan.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="turkmenistan"
+                    name="category"
+                  />
+                  <label for="turkmenistan">Turkmenistan</label>
+                  <span class="code">+993</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/turks.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="turks"
+                    name="category"
+                  />
+                  <label for="turks">Turks & Caicos Islands</label>
+                  <span class="code">+1649</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/tuvalu.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="tuvalu"
+                    name="category"
+                  />
+                  <label for="tuvalu">Tuvalu</label>
+                  <span class="code">+688</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/uganda.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="uganda"
+                    name="category"
+                  />
+                  <label for="uganda">Uganda</label>
+                  <span class="code">+256</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/ukrain.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="ukrain"
+                    name="category"
+                  />
+                  <label for="ukrain">Ukraine</label>
+                  <span class="code">+380</span>
+                </span>
+              </div>
+
+              <div class="option">
+                <span class="search">
+                  <img src="images/uae.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="United"
+                    name="category"
+                  />
+                  <label for="United">United Arab Emirates</label>
+                  <span class="code">+971</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/unitedkingdom.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="unitedkingdom"
+                    name="category"
+                  />
+                  <label for="unitedkingdom">United kingdom</label>
+                  <span class="code">+44</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/uruguay.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="uruguay"
+                    name="category"
+                  />
+                  <label for="uruguay">Uruguay</label>
+                  <span class="code">+598</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/usa.png" alt="" />
+                  <input type="radio" class="radio" id="usa" name="category" />
+                  <label for="usa">USA</label>
+                  <span class="code">+1</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/uzbekistan.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="uzbekistan"
+                    name="category"
+                  />
+                  <label for="uzbekistan">Uzbekistan</label>
+                  <span class="code">+998</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/venzuela.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="venzuela"
+                    name="category"
+                  />
+                  <label for="venzuela">Venezuela</label>
+                  <span class="code">+58</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/vietnam.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="vietnam"
+                    name="category"
+                  />
+                  <label for="vietnam">Vietnam</label>
+                  <span class="code">+84</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/wallis.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="wallis"
+                    name="category"
+                  />
+                  <label for="wallis">Wallis & Futuna </label>
+                  <span class="code">+681</span>
+                </span>
+              </div>
+
+              <div class="option">
+                <span class="search">
+                  <img src="images/yemen.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="yemen"
+                    name="category"
+                  />
+                  <label for="yemen">Yemen</label>
+                  <span class="code">+967</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/zambia.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="zambia"
+                    name="category"
+                  />
+                  <label for="zambia">Zambia</label>
+                  <span class="code">+260</span>
+                </span>
+              </div>
+              <div class="option">
+                <span class="search">
+                  <img src="images/zimbabwe.png" alt="" />
+                  <input
+                    type="radio"
+                    class="radio"
+                    id="zimbabwe"
+                    name="category"
+                  />
+                  <label for="zimbabwe">Zimbabwe</label>
+                  <span class="code">+263</span>
+                </span>
+              </div>
+            </div>
+
+            <div class="selected">
+              <!-- <span id="sel"></span> -->
+              <input
+                type="text"
+                id="selected__input"
+                onclick="dropdown()"
+                class="form__input"
+                autocomplete="off"
+                onkeydown="search()"
+                placeholder=""
+                value="Slovakia"
+                style="    font-weight: 400;"
+              />
+              <!-- <p>Country</p> -->
+              <label
+                for="selected__input"
+                class="form__label"
+                style="padding: 0 0.25rem 0 0.25rem;font-weight: 400"
+                >Country</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="phone_number_input" data-value="--- --- ---">
+          <input
+            type="tel"
+            id="myphone"
+            class="form__input"
+            placeholder=""
+            value=""
+            onkeypress="checkmyfunction2(event)"
+            onkeyup="this.value = addSpaces( this.value );"
+            pattern="[0-9]{10}"
+          />
+
+          <input
+            type="tel"
+            id="phone_2"
+            class="form__input"
+            onkeypress="checkmyfunction(event)"
+            onkeyup="myfunction()"
+            autocomplete="off"
+            placeholder=""
+            value="+421"
+          />
+
+          <label for="phone_2" class="form__label">Phone Number</label>
+        </div>
+        <label class="checkbox ripple"
+          ><span class="keep" style="font-weight: 400;margin-top: -3px"
+            >Keep me signed in</span
+          >
+          <input type="checkbox" checked />
+          <span class="checkmark"></span>
+        </label>
+        <!-- costume check box here ============================= -->
+
+        <button
+          class="next_btn"
+          id="next_btn"
+          onclick="redirect()"
+          style="margin-top: -10px;font-weight: 400"
+        >
+          NEXT
+        </button>
+        <button
+          class="qr_btn"
+          onclick="hideSignUp()"
+          style="  margin: 10px auto;font-weight: 400"
+        >
+          LOG IN BY QR CODE
+        </button>
+      </div>
+
+      <!-- login by qr code ===================== -->
+      <div class="home" id="home">
+        <img src="images/tg.png" alt="" style="    margin: 40px auto;" />
+        <h4 style="    margin-top: -20px;">Log in to Telegram by QR Code</h4>
+        <ol>
+          <li>Open Telegram on your phone</li>
+          <li>Go to <b>Settings > Devices > Scan QR</b></li>
+          <li>Point your phone at this screen to confirm login</li>
+        </ol>
+
+        <button class="login_btn" onclick="hideLogin()">
+          LOG IN BY PHONE NUMBER
+        </button>
+      </div>
+    </section>
+    <style>
+      .phone_number_input::after {
+        /*content: '--- --- ---';*/
+        content: attr(data-value);
+        text-align: right;
+        position: absolute;
+        top: 22%;
+        left: 68px;
+        letter-spacing: 1px;
+        color: #b49e9e;
+        font-size: 25px;
+        font-weight: lighter;
+        z-index: -1;
+        min-width: 90px;
+        text-align: right;
+      }
+
+      #myphone,
+      #phone_2 {
+        display: inline-block;
+        width: 55px !important;
+      }
+      #myphone {
+        left: auto;
+        right: 0;
+        width: calc(100% - 70px) !important;
+        padding-left: 0 !important;
+      }
+    </style>
+    <!-- js link here -------------------- -->
+    <script src="js/app.js"></script>
+
+    <script>
+      //const optionsContainer = document.querySelector(".options-container");
+      function addSpaces(initial) {
+        c = "---------";
+        myAfterDiv = document.getElementsByClassName("phone_number_input")[0];
+        myinput = document.getElementById("myphone");
+
+        if (initial.replace(/\D/g, "").length <= 9) {
+          attLength = initial.replace(/\D/g, "").length;
+          c = c.substr(0, attLength).replace(/-/g, " ") + c.substr(attLength);
+          console.log(
+            'c = "' + c + '"' + ", attLength = " + c.substr(0, attLength)
+          );
+          c = c.replace(/(.{3})/g, "$1 ").trim();
+        }
+        myAfterDiv.setAttribute("data-value", c);
+        console.log(myAfterDiv.getAttribute("data-value"));
+
+        return initial
+          .toString()
+          .replace(/[^\dA-Z]/g, "")
+          .replace(/(.{3})/g, "$1 ")
+          .trim();
+      }
+
+      function checkmyfunction2(e) {
+        input = document.getElementById("myphone");
+        if (input.value.replace(/\D/g, "").length > 8) {
+          e.preventDefault();
+        }
+      }
+
+      shouldNotRun = "no";
+      function checkmyfunction(e) {
+        input = document.getElementById("phone_2");
+        console.log('prevent input = "', input.value, '"');
+        if (input.value.charAt(input.value.length - 1) == " ") {
+          shouldNotRun = "yes";
+        } else {
+          shouldNotRun = "no";
+        }
+
+        if (input.value.replace(/\D/g, "").length > 3) {
+          e.preventDefault();
+        }
+      }
+
+      function myfunction() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("phone_2");
+        //console.log('input = '+'"'+input.value.length-1+'"'+', lastVal = '+'"'+input.value.charAt(input.value.length-1)+'"')
+        if (
+          input.value.replace(/\D/g, "").length <= 4 &&
+          input.value.charAt(input.value.length - 1) != " " &&
+          shouldNotRun != "yes"
+        ) {
+          filter = input.value;
+          ul = document.getElementById("optionContainer");
+          li = ul.getElementsByClassName("option");
+          for (i = 0; i < li.length; i++) {
+            a = li[i].querySelectorAll("span.code")[0];
+            txtValue = a.textContent || a.innerText;
+
+            //console.log(txtValue,', filter = ',filter.replace(/\D/g,''));
+            if (
+              txtValue == "+" + filter.replace(/\D/g, "") ||
+              txtValue == filter
+            ) {
+              //console.log(selected_input,', txtValue = ',txtValue);
+
+              var selected_input = li[i].querySelectorAll("label")[0].innerHTML;
+              optionsContainer.classList.remove("active");
+
+              pattern = "";
+              //if(txtValue.length == 3){
+              //  pattern = "     "; //5
+              //}else if(txtValue.length == 4){
+              //  pattern = "   ";   //3
+              //}else{
+              //  pattern = " "; //1
+              //}
+              document.getElementById("phone_2").value = txtValue + pattern;
+              document.getElementById("selected__input").value = selected_input;
+
+              document.getElementById("myphone").focus();
+            }
+          }
+        } else {
+          input = document.getElementById("phone_2");
+          mainKey = input.value.replace(/\D/g, "").length;
+          if ((mainKey = 2)) {
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
